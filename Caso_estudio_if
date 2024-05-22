@@ -1,0 +1,14 @@
+edad = int(input("Ingresa tu edad: "))
+hora = int(input("Ingresa la hora en formato de 24 hrs: "))
+precio = 300
+if edad > 65:
+    descuento = precio - 150
+    print(f"Tienes un descuento debido a tu edad, el total a pagar es de: {descuento}.")
+else:
+    print("No tienes descuento.")
+
+    if (7 <= hora>= 9) and (17 <= hora >= 19):
+        precio_precio = precio + 30
+        print(f"La tarifa aumento {precio_precio} por ser hora pico.")
+    else:
+        print("El precio es de 250, no hay sobrecargos.")
